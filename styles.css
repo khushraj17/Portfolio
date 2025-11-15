@@ -26,10 +26,12 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background: rgba(17, 15, 32, 0.95);
+            background: rgba(18, 16, 37, 0.951);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            box-shadow: 0 2px 20px rgba(0, 2, 69, 0.756);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.756);
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .logo {
@@ -37,10 +39,14 @@
             font-weight: 700;
             color: rgb(255, 255, 255);
             letter-spacing: 1px;
+           font-family: 'Poppins', sans-serif;
+
         }
         
         .logo span{
             color: #bc0c0c;
+           font-family: 'Poppins', sans-serif;
+
         }
 
         .nav-links {
@@ -119,6 +125,7 @@
             font-size: 18px;
             color: #ffffff;
             margin-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
         }
 
         .typing-container {
@@ -141,12 +148,17 @@
             51%, 100% { opacity: 0; }
         }
 
+        p{
+            font-family: 'Poppins', sans-serif;
+        }
         .hero-name {
             font-size: 62px;
             font-weight: 800;
             color: #0091ff;
             margin: 20px 0;
             letter-spacing: 2px;
+           font-family: 'Montserrat', sans-serif;
+
         }
 
         .hero-description {
@@ -353,10 +365,28 @@
         .section-title {
             font-size: 36px;
             font-weight: 700;
-            color: #2196F3;
+            color: #00aaff;
             margin-bottom: 40px;
             text-align: center;
             letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow:
+                0 0 6px #000000 ,0 0 10px #513939;
+        }
+
+        .about-title {
+            font-size: 50px;
+            font-weight: 800;
+            color: #00aaff;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+            text-shadow:
+                0 0 6px #000000 ,0 0 10px #513939;
+             /* 0 0 12px #ffffff,
+                0 0 22px #000000,
+                0 0 40px rgba(5, 5, 5, 0.2); */
         }
 
         .about-content {
@@ -373,7 +403,7 @@
             max-width: 600px;
             font-size: 16px;
             line-height: 1.6;
-            color: #d0d0d0;
+            color: #ffffff;
             text-align: justify;
         }
 
@@ -383,8 +413,9 @@
 
         .skills h3 {
             font-size: 20px;
-            color: #2196F3;
+            color: #00aaff;
             margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
         }
 
         .skill-tags {
@@ -404,6 +435,7 @@
             animation: fadeInUp 0.5s ease forwards;
             opacity: 0;
             animation-delay: calc(var(--delay) * 0.1s);
+            font-family: 'Poppins', sans-serif;
         }
 
         .about-image {
@@ -425,6 +457,18 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
+        }
+
+        .project-title {
+            font-size: 50px;
+            font-weight: 800;
+            color: #00aaff;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-family: 'Press Start 2P', monospace;
+            text-shadow:
+                0 0 6px #000000 ,0 0 10px #513939;
         }
 
         .portfolio-item {
