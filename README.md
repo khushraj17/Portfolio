@@ -13,7 +13,7 @@ The site includes sections like Home, About, Projects, and Contact. It is a stat
 ---
 
 ## 🚀 Live Preview  
-[Click Here to Visit](portfolio-pi-three-98.vercel.app)
+[Click Here to Visit](https://portfolio-pi-three-98.vercel.app/)
 
 ---
 
