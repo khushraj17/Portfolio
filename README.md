@@ -7,6 +7,8 @@ Clean and responsive.
 
 ## 🔎 Project Overview
 
+<img aling= "centre" src="overview.png" alt="Portfolio Screenshot" width="800">
+
 
 The site includes sections like Home, About, Projects, and Contact. It is a static site (HTML / CSS / JS) with images and custom fonts.
 
